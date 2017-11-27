@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" ignored="0" total="10" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationStages" duration-ms="51322" started-at="2017-11-20T20:20:37Z" finished-at="2017-11-20T20:21:29Z">
+    <groups>
+    </groups>
+    <test name="AutomationStages" duration-ms="51322" started-at="2017-11-20T20:20:37Z" finished-at="2017-11-20T20:21:29Z">
+      <class name="Tests.AnnotationsTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="beforeTest" is-config="true" duration-ms="5" started-at="2017-11-20T14:20:37Z" finished-at="2017-11-20T14:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-11-20T14:20:38Z" finished-at="2017-11-20T14:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="setUp" is-config="true" duration-ms="9374" started-at="2017-11-20T14:20:38Z" finished-at="2017-11-20T14:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="Test01" duration-ms="2829" started-at="2017-11-20T14:20:47Z" data-provider="InvalidCredentials" finished-at="2017-11-20T14:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kenneth22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456abC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your login attempt was not successful. Please try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="207" started-at="2017-11-20T14:20:50Z" finished-at="2017-11-20T14:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="setUp" is-config="true" duration-ms="6735" started-at="2017-11-20T14:20:50Z" finished-at="2017-11-20T14:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="Test02" duration-ms="1090" started-at="2017-11-20T14:20:57Z" data-provider="PasswordsMismach" finished-at="2017-11-20T14:20:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kenneth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alvarado]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[copetilla_22@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Turrenneth]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456abC#]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Color favorito]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Azul]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[The password and confirmation password must match.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="288" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tests.AnnotationsTest@4cc0edeb]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-20T14:21:29Z" finished-at="2017-11-20T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.AnnotationsTest -->
+      <class name="Tests.RegisterTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="setUp" is-config="true" duration-ms="5014" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MandatoryFields()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="MandatoryFields" duration-ms="669" started-at="2017-11-20T14:21:03Z" finished-at="2017-11-20T14:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MandatoryFields -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="235" started-at="2017-11-20T14:21:04Z" finished-at="2017-11-20T14:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="setUp" is-config="true" duration-ms="7712" started-at="2017-11-20T14:21:04Z" finished-at="2017-11-20T14:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="PasswordsMismach(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="PasswordsMismach" duration-ms="2600" started-at="2017-11-20T14:21:12Z" data-provider="PasswordsMismach" finished-at="2017-11-20T14:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kenneth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alvarado]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[copetilla_22@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Turrenneth]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456abC#]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Color favorito]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Azul]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[The password and confirmation password must match.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordsMismach -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="225" started-at="2017-11-20T14:21:14Z" finished-at="2017-11-20T14:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="setUp" is-config="true" duration-ms="6857" started-at="2017-11-20T14:21:15Z" finished-at="2017-11-20T14:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RegisterPageDisplayed()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="RegisterPageDisplayed" duration-ms="878" started-at="2017-11-20T14:21:21Z" finished-at="2017-11-20T14:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterPageDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="200" started-at="2017-11-20T14:21:22Z" finished-at="2017-11-20T14:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="setUp" is-config="true" duration-ms="5190" started-at="2017-11-20T14:21:22Z" finished-at="2017-11-20T14:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UsernameTaken(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="UsernameTaken" duration-ms="914" started-at="2017-11-20T14:21:28Z" data-provider="UsernameTaken" finished-at="2017-11-20T14:21:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kenneth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alvarado]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[copetilla_22@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kevin22]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456abC#]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123456abC#]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Color favorito]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Azul]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[User name already exists. Please enter a different user name.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsernameTaken -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.RegisterTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="273" started-at="2017-11-20T14:21:29Z" finished-at="2017-11-20T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RegisterTests -->
+      <class name="Tests.LoginTests">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTests@457e2f02]" name="setup" is-config="true" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kalvarado-as\workspace\AutomationStages\TestSuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kalvarado-as\workspace\AutomationStages\TestSuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:248)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:286)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:547)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:150)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="CorrectLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTests@457e2f02]" name="CorrectLogin" duration-ms="0" started-at="2017-11-20T14:20:58Z" data-provider="ValidCredentials" finished-at="2017-11-20T14:20:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kalvarado-as\workspace\AutomationStages\TestSuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kalvarado-as\workspace\AutomationStages\TestSuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:248)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:286)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:547)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:150)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CorrectLogin -->
+        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:Tests.LoginTests@457e2f02]" name="closeDriver" is-config="true" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="SKIP" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTests@457e2f02]" name="setup" is-config="true" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="IncorrectLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTests@457e2f02]" name="IncorrectLogin" duration-ms="0" started-at="2017-11-20T14:20:58Z" data-provider="InvalidCredentials" finished-at="2017-11-20T14:20:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kalvarado-as\workspace\AutomationStages\TestSuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kalvarado-as\workspace\AutomationStages\TestSuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:248)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:286)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:547)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:150)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectLogin -->
+        <test-method status="SKIP" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTests@457e2f02]" name="setup" is-config="true" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:Tests.LoginTests@457e2f02]" name="closeDriver" is-config="true" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="SKIP" signature="LoginTest()[pri:0, instance:Tests.LoginTests@457e2f02]" name="LoginTest" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kalvarado-as\workspace\AutomationStages\TestSuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kalvarado-as\workspace\AutomationStages\TestSuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:248)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:286)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:547)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:150)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:Tests.LoginTests@457e2f02]" name="closeDriver" is-config="true" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="FAIL" signature="elementEnabled(org.openqa.selenium.WebElement)[pri:0, instance:Tests.LoginTests@457e2f02]" name="elementEnabled" duration-ms="0" started-at="2017-11-20T14:20:58Z" finished-at="2017-11-20T14:20:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [elementEnabled] with [interface org.openqa.selenium.WebElement].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [elementEnabled] with [interface org.openqa.selenium.WebElement].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:334)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:274)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:562)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:672)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1316)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1044)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1134)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementEnabled -->
+      </class> <!-- Tests.LoginTests -->
+    </test> <!-- AutomationStages -->
+  </suite> <!-- AutomationStages -->
+</testng-results>

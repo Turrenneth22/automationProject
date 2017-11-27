@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="AutomationStages">
+  <test name="AutomationStages"   >
+    <packages>
+      <package name="Tests" />
+   </packages>
+ </test>
+</suite>
